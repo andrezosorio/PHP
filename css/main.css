@@ -1,0 +1,318 @@
+/* Makeshift CSS Reset */
+{
+	margin: 0;
+	padding: 0;
+}
+
+/* Le indicamos a el navegador que renderise etos elementos HTML5 como bloques */
+
+footer, aside, nav, article {
+	display: block;
+}
+
+header{
+	color: #FFFFFF;
+	background-color: #007A00;
+}
+
+body{
+	margin: 0 auto;
+	width: 948px;
+	font: 13px/22px Helvetica, Arial, sans-serif;
+	background: #f0f0f0;
+}
+
+h2{
+	font-size: 28px;
+	line-height: 44px;
+	padding: 22px 0;
+}
+
+h3{
+	font-size: 13px;
+	line-height: 22px;
+}
+
+p{
+	padding-bottom: 22px;
+}
+
+
+
+.login{
+	display: table;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.login h1 {
+	position: relative;
+	font-size: 28px;
+	line-height: 20px;
+	padding: 2px 0;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+.loginInicio
+{
+	position: relative;
+	display: table-cell;
+	width: 63%;
+
+}
+.logout{
+	position: relative;
+	display: table-cell;
+	
+}
+
+.loginInicio form{
+	width: 100%;
+	padding-bottom: 15px;
+}
+.loginNombre
+{
+	position: relative;
+	display: table-cell;
+	padding:10px;
+}
+
+.contenido{
+	position: relative;
+	max-width: 100%;
+	max-height:100%;
+}
+.imagen{
+	height: 480px;
+}
+
+.imagen img{
+	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+	z-index: -1;
+}
+
+
+.registro{
+	position: absolute;
+	margin-right: 70px;
+	right:  0px;
+	margin-top: 20px;
+	width: 25%;
+	text-align: center;
+}
+
+.registro input{
+	margin:5px;
+	border-radius: 8px;
+	width: 100%;
+	height: 22px;
+}
+
+.registro button{
+	border-radius: 8px;
+	width: 40%;
+	height: 30px;
+	font: 19px/22px Comic;
+
+}
+
+.registro label {
+	font: 25px/22px Comic;
+}
+
+.check {
+
+	width: 20%;
+}
+	
+#check {
+
+	position: absolute;
+	width: 8%;
+	left: 0px;
+	margin-left: 1px;
+
+}
+
+.terminos{
+	display: table;
+	width: 100%;
+}
+
+.terminos1
+{
+	position: relative;
+	display: table-cell;
+	width: 7%;
+
+}
+
+.terminos2
+{
+	position: relative;
+	display: table-cell;
+	width: 100%;
+
+}
+
+footer{
+	margin-top: 40px;
+}
+
+.final{
+	position: relative;
+}
+.final h3{
+	font:27px/30px Aparajita;
+	text-align: center;
+	padding: 2px;
+	margin:5px;
+}
+
+.redes{
+	text-align: center;
+	position: relative;
+ 	display: table;
+ 	max-height: 100%;
+	min-width: 100%;
+}
+.redes img{
+	text-align: center;
+	position: relative;
+ 	padding:10px;
+ 	width: 20px;
+ 	height: 20px;
+}
+
+.comboPais{
+	width: 100%;
+	margin: 5px;
+	border-radius: 8px;
+	height: 22px;
+}
+
+.comboDepto{
+	width: 100%;
+	margin: 5px;
+	border-radius: 8px;
+	height: 22px;
+}
+
+
+/*tablet*/
+@media only screen and (min-width:768px) and (max-width: 1024px)  {
+
+
+	body{
+
+		width: 95%;
+	}
+
+
+	.login h1{
+
+		font-size: 17px;
+	}
+
+	.loginNombre{
+
+		width: 20%;
+	}
+
+	#correoL{
+
+		width: 120px;
+	}
+
+	#passwordL{
+
+		width: 120px;
+	}
+
+	.loginInicio{
+
+		width: 69%;
+	}
+
+
+	.registro{
+
+		position: relative;
+		width: 60%;
+	}
+
+	.registro input{
+
+		height: 25px;
+	}
+
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+
+}
+
+
+/*landscape*/
+@media only screen and (min-width: 321px) and (max-width: 767px){
+
+
+	body{
+
+		width: 95%;
+	}
+
+	.registro{
+
+		position: relative;
+		width: 80%;
+		margin-left: 8%;
+	}
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+
+
+}
+
+
+/*portrait*/
+@media only screen and (max-width: 320px){
+
+	body{
+
+		width: 95%;
+	}
+
+	.registro{
+
+		position: relative;
+		width: 80%;
+		margin-left: 8%;
+	}
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+}

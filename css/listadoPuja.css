@@ -1,0 +1,273 @@
+{
+	margin:0;
+	padding:0;
+}
+
+footer, aside, nav, article{
+	display:block;
+}
+header{
+	margin: 0px;
+	display: block;	
+	box-shadow: #0e0e0e 0 0 2px 0;
+}
+
+body{
+	margin: 0 auto;
+	width: 940px;
+	font: 13px/22px Helvetica, Arial;
+	background: white;
+}
+h1{
+	font:60px/22px, Aparajita;
+	padding: 2px 0;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+h2{
+	font-size: 22px;
+	line-height: 22px;
+	padding: 2px 0;
+}
+
+h3{
+	font-size: 16px;
+	line-height: 22px;
+	padding: 2px 0;
+}
+ p{
+	 padding-bottom: 15px;
+	 float: left; 
+ 	 height: 350px; 
+	 margin: 5px; 
+	 padding: 3px; 
+	 width: 280px;
+	 text-align: justify;
+ }
+ nav{
+	position: relative;
+	 left: 0;
+	 width: 100%;
+}
+nav ul{
+	 margin : 0 auto;
+	 width: 940px;
+	 list-style: none;
+ }
+ 
+ nav ul li{
+	 float: left;
+	 text-align: center;
+ }
+ 
+ nav ul li a {
+	 display: block;
+	 margin-right: 20px;
+	 font-size: 14px;
+	 line-height: 44px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: black;
+	 
+ }
+ .navegador{
+ 	margin: auto;
+ 	width: 33%;
+ 	color: #FFFFFF;
+ }
+
+  .centrar{
+ 	padding-top: 1px;
+ 	padding-bottom: 50px;	
+	box-shadow: #FFFFFF 0 0 1px 0;
+	background-color: #007A00;
+	color: #FFFFFF;
+ }
+
+.navegador a{
+	color: #FFFFFF;
+}
+
+
+ .content{
+ 	position: relative;
+ 	display: table; 	
+	max-height: 100%;
+	min-width: 100%;
+ 	margin-top: 5px;	
+ } 
+
+ .imagen{
+ 	position: relative;
+ 	display: table-cell;
+ 	padding:10px;
+ 	width: 170px;
+ 	height: 170px;
+
+ }
+
+ .imagen img{
+ 	position: relative;
+ 	width: 100%;
+ 	height: 100%;
+	z-index: -1;
+
+ }
+
+ .contentText{
+ 	position: relative;
+ 	display: table;
+ 	max-height: 100%;
+	min-width: 100%;
+ 	
+ 	-moz-padding-bottom: 22px;
+	-webkit-border-radius: 80px;
+	-o-padding-bottom: 10px;
+	-khtml-background-size: 100%;
+
+ }
+
+ .text{
+ 	position: relative;
+ 	display: table-cell;
+ 	padding:2px;
+ 	width: 20px;
+ }
+
+ .text h2{
+ 	position: relative;
+ 	text-align: center;
+ 	margin: 2px;
+ 	padding: 2px;
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ .text h3{
+ 	position: relative;
+ 	text-align: center;
+ 	margin: 2px;
+ 	padding: 2px;
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ .contentBody{
+ 	position: relative;
+ }
+
+.info ul li {
+	width: 92%;
+}
+.info ul li a{
+	text-align: center;
+	text-decoration: underline;
+	padding: 1px;
+	margin: 1px;
+
+}
+
+.final{
+	position: relative;
+}
+.final h3{
+	font:27px/30px Aparajita;
+	text-align: center;
+	padding: 2px 0;
+}
+
+.redes{
+	text-align: center;
+	position: relative;
+ 	display: table;
+ 	max-height: 100%;
+	min-width: 100%;
+}
+.redes img{
+	text-align: center;
+	position: relative;
+ 	padding:10px;
+ 	width: 20px;
+ 	height: 20px;
+}
+
+/*tablet*/
+@media only screen and (min-width:768px) and (max-width: 1024px)  {
+
+	body{
+		width: 98%;
+	}
+
+	.navegador{
+		width: 46%;
+	}
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+
+
+}
+
+
+/*landscape*/
+@media only screen and (min-width: 321px) and (max-width: 767px){
+
+	body{
+		width: 98%;
+	}
+
+	.navegador{
+		width: 100%;
+	}
+
+
+	nav ul{
+
+		width: 80%;
+	}
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+}
+
+
+/*portrait*/
+@media only screen and (max-width: 320px){
+
+
+	body{
+		width: 98%;
+	}
+
+	.navegador{
+		width: 100%;
+	}
+
+
+	nav ul{
+
+		width: 80%;
+	}
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+}

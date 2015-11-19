@@ -1,0 +1,125 @@
+{
+	margin:0;
+	padding:0;
+}
+
+footer, aside, nav, article{
+	display:block;
+}
+header{
+	margin: 0px;
+	display: block;	
+	box-shadow: #0e0e0e 0 0 2px 0;
+}
+
+body{
+	margin: 0px;
+	width: 350px;
+	font: 18px/33px Helvetica, Arial;
+	background: white;
+}
+h1{
+	font:60px/22px, Aparajita;
+	padding: 2px 0;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+h2{
+	font-size: 22px;
+	line-height: 22px;
+	padding: 2px 0;
+}
+
+h3{
+	font-size: 16px;
+	line-height: 22px;
+	padding: 2px 0;
+}
+ p{
+	 padding-bottom: 15px;
+	 float: left; 
+ 	 height: 5px; 
+	 margin: 5px; 
+	 padding: 3px; 
+	 width: 280px;
+	 text-align: justify;
+ }
+ nav{
+	position: relative;
+	 left: 0;
+	 width: 100%;
+}
+nav ul{
+	 margin : 0 auto;
+	 width: 940px;
+	 list-style: none;
+ }
+ 
+ nav ul li{
+	 float: left;
+	 text-align: center;
+ }
+ 
+ nav ul li a {
+	 display: block;
+	 margin-right: 20px;
+	 font-size: 14px;
+	 line-height: 44px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: black;
+	 
+ }
+
+ .formulario{
+ 	padding-top: 20px;
+ 	display: block;
+ 	margin: 20px;
+	display: block;	
+	box-shadow: #0e0e0e 0 0 2px 0;
+ }
+.formulario label{
+	padding-left: 10px;
+}
+.formulario input{
+	padding-left: 2px;
+}
+ .formulario button{
+ 	border-radius: 10px;
+	background-color: #007A00;
+	color: #FFFFFF;
+	margin-left: 100px;
+ }
+
+.tipoPago{
+
+	width: 147px;
+	margin-left: 12px;
+}
+
+/*tablet*/
+@media only screen and (min-width:768px) and (max-width: 1024px)  {
+
+
+
+}
+
+
+
+/*landscape*/
+@media only screen and (min-width: 321px) and (max-width: 767px){
+
+
+
+}
+
+
+
+/*portrait*/
+@media only screen and (max-width: 320px){
+
+
+
+
+}

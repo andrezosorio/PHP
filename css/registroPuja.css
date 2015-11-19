@@ -1,0 +1,327 @@
+{
+	margin:0;
+	padding:0;
+}
+
+footer, aside, nav, article{
+	display:block;
+}
+header{
+	margin: 0px;
+	display: block;	
+	box-shadow: #0e0e0e 0 0 2px 0;
+}
+
+body{
+	margin: 0 auto;
+	width: 940px;
+	font: 13px/22px Helvetica, Arial;
+	background: white;
+}
+h1{
+	font:60px/22px, Aparajita;
+	padding: 2px 0;
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+h2{
+	font-size: 22px;
+	line-height: 22px;
+	padding: 2px 0;
+}
+
+h3{
+	font-size: 16px;
+	line-height: 22px;
+	padding: 2px 0;
+}
+ p{
+	 padding-bottom: 15px;
+	 float: left; 
+ 	 height: 5px; 
+	 margin: 5px; 
+	 padding: 3px; 
+	 width: 280px;
+	 text-align: justify;
+ }
+ nav{
+	position: relative;
+	 left: 0;
+	 width: 100%;
+}
+nav ul{
+	 margin : 0 auto;
+	 width: 940px;
+	 list-style: none;
+ }
+ 
+ nav ul li{
+	 float: left;
+	 text-align: center;
+ }
+ 
+ nav ul li a {
+	 display: block;
+	 margin-right: 20px;
+	 font-size: 14px;
+	 line-height: 44px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: black;
+	 
+ }
+ .navegador{
+ 	margin: auto;
+ 	width: 33%;
+ }
+
+ .navegador a{
+ 	color: #FFFFFF;
+ }
+
+ .contentBody{
+ 	position: relative;
+ }
+
+ .centrar{
+ 	padding-top: 1px;
+ 	padding-bottom: 50px;	
+	box-shadow: #FFFFFF 0 0 1px 0;
+	background-color: #007A00;
+ }
+ .centrar h1{
+ 	color: #FFFFFF;
+ }
+
+ /*BODY*/
+
+.formulario{
+	display: table;
+	text-align: center;
+	padding-top: 20px;
+	width: 100%;
+}
+
+#subasta{
+	width: 30%;
+	height: 35px;
+	border-radius: 10px;
+	background-color: #007A00;
+	color: #FFFFFF;
+	margin-top: 20px;
+}
+
+.camposInput{
+	display: table-cell;	
+ 	width: 40%;
+}
+.camposLabel{
+	display: table-cell;
+	text-align: left;
+	width: 45%;	
+}
+
+.camposLabel ul{
+	margin: 0px;
+	padding-left: 45%;
+	list-style: outside,none,none;
+
+}
+
+.camposLabel li{
+	text-decoration: none;
+	display: block;
+	color: black;
+	margin-bottom: 5px;
+}
+
+
+
+.camposInput input{
+	width: 120%;
+	vertical-align: top;
+}
+
+.descripcion{
+	height: 150px;
+	margin-bottom: 10px;
+}
+
+.camposInput ul{
+	margin: 0px;
+	padding-left: 10px;
+	list-style: outside,none,none;
+	width: 80%;
+}
+.camposInput li{
+	text-decoration: none;
+	display: block;
+	color: black;
+	margin-bottom: 5px;
+}
+
+.margenExtra {
+	margin-top: 24px;
+}
+
+
+/*Cierra Body*/
+
+footer{
+	margin-top: 40px;
+}
+
+.final{
+	position: relative;
+}
+.final h3{
+	font:27px/30px Aparajita;
+	text-align: center;
+	padding: 2px;
+	margin:5px;
+}
+.redes{
+	text-align: center;
+	position: relative;
+ 	display: table;
+ 	max-height: 100%;
+	min-width: 100%;
+}
+.redes img{
+	text-align: center;
+	position: relative;
+ 	padding:10px;
+ 	width: 20px;
+ 	height: 20px;
+}
+
+
+
+/*tablet*/
+@media only screen and (min-width:768px) and (max-width: 1024px)  {
+
+	body{
+		width: 98%;
+	}
+
+
+	.navegador{
+		width: 46%;
+	}
+
+
+	.camposLabel ul{
+
+		padding-left: 30%;
+	}
+
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+}
+
+
+
+/*landscape*/
+@media only screen and (min-width: 321px) and (max-width: 767px){
+
+
+	body{
+		width: 98%;
+	}
+
+
+	.navegador{
+		width: 46%;
+	}
+
+
+	.camposLabel{
+
+		visibility: hidden;
+		width: 0px;
+	}
+
+	.camposLabel ul{
+
+		padding-left: 0%;
+		width: 0px;
+	}
+
+	.formulario{
+
+		width: 95%;
+	}
+
+	#subasta{
+
+		width: 48%;
+		
+	}
+
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+}
+
+
+
+/*portrait*/
+@media only screen and (max-width: 320px){
+
+body{
+		width: 98%;
+	}
+
+
+	.navegador{
+		width: 100%;
+	}
+
+
+	.camposLabel{
+
+		visibility: hidden;
+		width: 0px;
+	}
+
+	.camposLabel ul{
+
+		padding-left: 0%;
+		width: 0px;
+	}
+
+	.formulario{
+
+		width: 95%;
+	}
+
+	#subasta{
+
+		width: 48%;
+		
+	}
+
+
+	.final{
+
+		visibility: hidden;
+		height: 0px;
+	}
+
+
+
+}
